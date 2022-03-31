@@ -7,5 +7,5 @@ let package = Package(
     platforms: [ .iOS(.v13) ],
     products: [ .library(name: "SimplePackage", targets: ["SimplePackage"]) ],
     dependencies: [],
-    targets: [ .target(name: "SimplePackage", path: "") ]
+    targets: [ .target(name: "SimplePackage", path: "", exclude: ["Package.swift"]) ]
 )

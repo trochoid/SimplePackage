@@ -1,5 +1,5 @@
 import SwiftUI
 
 public func bananoids() {
-    print("goopy")
+    print("floopy")
 }

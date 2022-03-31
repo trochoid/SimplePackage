@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "SimplePackage",
     platforms: [ .iOS(.v13) ],
-    //products: [ .library(name: "SimplePackage", targets: ["SimplePackage"]) ],
+    products: [ .library(name: "SimplePackage", targets: ["SimplePackage"]) ],
     //dependencies: [],
     targets: [ .target(name: "SimplePackage", path: "") ]
 )
